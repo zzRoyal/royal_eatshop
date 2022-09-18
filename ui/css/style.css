@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bangers&family=Bebas+Neue&family=Inconsolata:wght@500&family=Oswald:wght@200;400&family=Saira+Condensed:wght@600;700;900&family=Teko:wght@400;700&display=swap');
+
+.closetypemenu {
+    position: absolute;
+    left: 76.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 2%;
+    top: 15%;
+    cursor: pointer;
+}
+
+.caja-comprar {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000;
+    height: 35.9vw;
+    width: 60.5vw;
+    background-color: rgb(195, 199, 200);
+    left: 17.75vw;
+    bottom: 8.6vw;
+}
+
+.anuncio-panel {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw rgb(177, 3, 3), 0 0 .5vw rgb(5, 5, 5), 0 0 .5vw rgb(0, 0, 0);
+    height: 2.9vw;
+    width: 30.5vw;
+    background-color: rgb(248, 3, 3);
+    left: 33.5vw;
+    bottom: 43.6vw;
+}
+
+.catcafe-logo {
+    position: absolute;
+    top: 4.2vw;
+    left: 37vw;
+    width: 5vw;
+}
+
+.catcafe-logo-2 {
+    position: absolute;
+    top: 4.2vw;
+    left: 55vw;
+    width: 5vw;
+}
+
+.anuncio-text {
+    position: absolute;
+    font-family: Oswald;
+    font-size: 2vw;
+    left: 44vw;
+    bottom: 43.8vw;
+}
+
+.cuadrado-de-compra-1 {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000;
+    height: 8.9vw;
+    width: 14.5vw;
+    left: 20.9vw;
+    bottom: 30.6vw;
+}
+
+.cuadrado-buy-1 {
+    position: absolute;
+    border-radius: .3vw;
+    border-color: rgb(128, 0, 0);
+    box-shadow: 0 0 .5vw rgb(248, 3, 3);
+    background-color: rgb(128, 0, 0);
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid #ff0000;
+    height: 1.9vw;
+    width: 4.5vw;
+    left: 26.15vw;
+    opacity: 100%;
+    bottom: 29.6vw;
+    cursor: pointer;
+}
+
+.buy-1 {
+    position: absolute;
+    left: 5.9vw;
+    color: rgb(255, 255, 255);
+    top: 8.1vw;
+    font-size: 1vw;
+    font-family: Oswald;
+    cursor: pointer;
+}
+
+.cuadrado-de-compra-2 {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000;
+    height: 8.9vw;
+    width: 14.5vw;
+    left: 40.9vw;
+    bottom: 30.6vw;
+}
+
+.cuadrado-buy-2 {
+    position: absolute;
+    border-radius: .3vw;
+    border-color: rgb(128, 0, 0);
+    box-shadow: 0 0 .5vw rgb(248, 3, 3);
+    background-color: rgb(128, 0, 0);
+    height: 1.9vw;
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid #ff0000;
+    width: 4.5vw;
+    left: 46.15vw;
+    opacity: 100%;
+    bottom: 29.6vw;
+    cursor: pointer;
+}
+
+.cuadrado-buy-2:hover {
+    cursor: pointer;
+    background: #ae00ff7c;
+    text-decoration: none;
+}
+
+.buy-2 {
+    position: absolute;
+    left: 5.9vw;
+    color: rgb(255, 255, 255);
+    top: 8.1vw;
+    font-size: 1vw;
+    font-family: Oswald;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.cuadrado-de-compra-3 {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000;
+    height: 8.9vw;
+    width: 14.5vw;
+    left: 60.9vw;
+    bottom: 30.5vw;
+}
+
+.cuadrado-buy-3 {
+    position: absolute;
+    border-radius: .3vw;
+    border-color: rgb(128, 0, 0);
+    box-shadow: 0 0 .5vw rgb(248, 3, 3);
+    background-color: rgb(128, 0, 0);
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid #ff0000;
+    height: 1.9vw;
+    width: 4.5vw;
+    left: 66.15vw;
+    opacity: 100%;
+    bottom: 29.6vw;
+    cursor: pointer;
+}
+
+.buy-3 {
+    position: absolute;
+    left: 5.9vw;
+    color: rgb(255, 255, 255);
+    top: 8vw;
+    font-size: 1vw;
+    font-family: Oswald;
+    cursor: pointer;
+}
+
+.cuadrado-de-compra-4 {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000;
+    height: 8.9vw;
+    width: 14.5vw;
+    left: 20.9vw;
+    bottom: 15.5vw;
+}
+
+.cuadrado-buy-4 {
+    position: absolute;
+    border-radius: .3vw;
+    border-color: rgb(128, 0, 0);
+    box-shadow: 0 0 .5vw rgb(248, 3, 3);
+    background-color: rgb(128, 0, 0);
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid #ff0000;
+    height: 1.9vw;
+    width: 4.5vw;
+    left: 26.15vw;
+    opacity: 100%;
+    bottom: 14.6vw;
+    cursor: pointer;
+}
+
+.buy-4 {
+    position: absolute;
+    left: 5.9vw;
+    color: rgb(255, 255, 255);
+    top: 8vw;
+    font-size: 1vw;
+    font-family: Oswald;
+    cursor: pointer;
+}
+
+.cuadrado-de-compra-5 {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000;
+    height: 8.9vw;
+    width: 14.5vw;
+    left: 40.9vw;
+    bottom: 15.5vw;
+}
+
+.cuadrado-buy-5 {
+    position: absolute;
+    border-radius: .3vw;
+    border-color: rgb(128, 0, 0);
+    box-shadow: 0 0 .5vw rgb(248, 3, 3);
+    background-color: rgb(128, 0, 0);
+    height: 1.9vw;
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid #ff0000;
+    width: 4.5vw;
+    left: 46.15vw;
+    opacity: 100%;
+    bottom: 14.6vw;
+    cursor: pointer;
+}
+
+.buy-5 {
+    position: absolute;
+    left: 5.9vw;
+    color: rgb(255, 255, 255);
+    top: 8vw;
+    font-size: 1vw;
+    font-family: Oswald;
+    cursor: pointer;
+}
+
+.cuadrado-de-compra-6 {
+    position: absolute;
+    border-radius: .3vw;
+    box-shadow: 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000, 0 0 .5vw #000;
+    height: 8.9vw;
+    width: 14.5vw;
+    left: 60.9vw;
+    bottom: 15.5vw;
+}
+
+.cuadrado-buy-6 {
+    position: absolute;
+    border-radius: .3vw;
+    border-color: rgb(128, 0, 0);
+    box-shadow: 0 0 .5vw rgb(248, 3, 3);
+    background-color: rgb(128, 0, 0);
+    height: 1.9vw;
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid #ff0000;
+    width: 4.5vw;
+    left: 66.15vw;
+    opacity: 100%;
+    bottom: 14.6vw;
+    cursor: pointer;
+}
+
+.buy-6 {
+    position: absolute;
+    left: 5.9vw;
+    color: rgb(255, 255, 255);
+    top: 8vw;
+    font-size: 1vw;
+    font-family: Oswald;
+    cursor: pointer;
+}
+
+
+.text-1 {
+    position: absolute;
+    font-family: Oswald;
+    color:rgb(21, 160, 3);
+    font-size: 1.4vw;
+    top: 16vw;
+    left: 49vw;
+}
+
+.text-2 {
+    position: absolute;
+    font-family: Oswald;
+    color:rgb(21, 160, 3);
+    font-size: 1.4vw;
+    top: 16vw;
+    left: 69vw;
+}
+
+.text-3 {
+    position: absolute;
+    font-family: Oswald;
+    color:rgb(21, 160, 3);
+    font-size: 1.4vw;
+    top: 16vw;
+    left: 29vw;
+}
+
+.text-4 {
+    position: absolute;
+    font-family: Oswald;
+    color:rgb(21, 160, 3);
+    font-size: 1.4vw;
+    top: 31vw;
+    left: 29vw;
+}
+
+.text-5 {
+    position: absolute;
+    font-family: Oswald;
+    color:rgb(21, 160, 3);
+    font-size: 1.4vw;
+    top: 31vw;
+    left: 49vw;
+}
+
+.text-6 {
+    position: absolute;
+    font-family: Oswald;
+    color:rgb(21, 160, 3);
+    font-size: 1.4vw;
+    top: 31vw;
+    left: 69vw;
+}
+
+
+.img-1 {
+    position: absolute;
+    top: 12.6vw;
+    left: 41.9vw;
+    width: 5%;
+}
+
+.img-2 {
+    position: absolute;
+    top: 12.8vw;
+    left: 21.9vw;
+    width: 5%;
+}
+
+.img-3 {
+    position: absolute;
+    top: 12.9vw;
+    left: 61.9vw;
+    width: 5%;
+}
+
+.img-4 {
+    position: absolute;
+    top: 27vw;
+    left: 21.7vw;
+    width: 6.5%;
+}
+
+.img-5 {
+    position: absolute;
+    top: 27.95vw;
+    left: 42.06vw;
+    width: 5%;
+}
+
+.img-6 {
+    position: absolute;
+    top: 27.6vw;
+    left: 62.7vw;
+    width: 5%;
+}
+
+.texto-manzana { 
+    position: absolute;
+    font-family: Oswald;
+    font-size: 1.55vw;
+    left: 47.45vw;
+    top: 13vw;
+}
+
+.texto-taco { 
+    position: absolute;
+    font-family: Oswald;
+    font-size: 1.55vw;
+    left: 28.45vw;
+    top: 13vw;
+}
+
+.texto-hamb { 
+    position: absolute;
+    font-family: Oswald;
+    font-size: 1.55vw;
+    left: 66.8vw;
+    top: 13vw;
+}
+
+.texto-zumo { 
+    position: absolute;
+    font-family: Oswald;
+    font-size: 1.55vw;
+    left: 67.8vw;
+    top: 28vw;
+}
+
+.texto-cafe { 
+    position: absolute;
+    font-family: Oswald;
+    font-size: 1.55vw;
+    left: 48.2vw;
+    top: 28vw;
+}
+
+.texto-patatas { 
+    position: absolute;
+    font-family: Oswald;
+    font-size: 1.55vw;
+    left: 28vw;
+    top: 28vw;
+}
